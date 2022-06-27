@@ -1,37 +1,37 @@
 {
   "project_info": {
-    "project_number": "63552031856",
-    "project_id": "sign-in-yt",
-    "storage_bucket": "sign-in-yt.appspot.com"
+    "project_number": "833303576943",
+    "project_id": "vision-onway-91fa3",
+    "storage_bucket": "vision-onway-91fa3.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:63552031856:android:767ac4dda2b00a7066b8b5",
+        "mobilesdk_app_id": "1:833303576943:android:e2fe2c94635a871a15689a",
         "android_client_info": {
-          "package_name": "com.android.application"
+          "package_name": "com.example.signIn"
         }
       },
       "oauth_client": [
         {
-          "client_id": "63552031856-9vlt615mrgap9c1kc36a70ubgpi70pnq.apps.googleusercontent.com",
+          "client_id": "833303576943-acgrj6u2sm06io2khfhn54mt4puipkgn.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyD7rCGlic2dclvBE465Dlja3SeFaBjK5ZY"
+          "current_key": "AIzaSyCCiwpTtpLK5fmoBYa2qUdfCssxWULVQZg"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "63552031856-9vlt615mrgap9c1kc36a70ubgpi70pnq.apps.googleusercontent.com",
+              "client_id": "833303576943-acgrj6u2sm06io2khfhn54mt4puipkgn.apps.googleusercontent.com",
               "client_type": 3
             },
             {
-              "client_id": "63552031856-p8sdsss6d4lvv482q8h9fcaj4d2fr7oa.apps.googleusercontent.com",
+              "client_id": "833303576943-hdeccfg3cqutjg1j536uv12v820c4u74.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
                 "bundle_id": "com.example.signIn"

@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.sign_in">
+    package="com.example.signIn">
    <application
         android:label="sign_in"
         android:icon="@mipmap/ic_launcher">
