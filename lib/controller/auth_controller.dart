@@ -134,6 +134,36 @@ class AuthController extends GetxController {
     }
   }
 
+
+ void walking() async {
+    // try {
+    //   googleAcc.value = await _googleSignIn.signIn();
+    //   displayName = googleAcc.value!.displayName!;
+    //   isSignedIn.value = true;
+    //   update(); // <-- without this the isSignedin value is not updated.
+    // } catch (e) {
+    //   Get.snackbar('Error occured!', e.toString(),
+    //       snackPosition: SnackPosition.BOTTOM,
+    //       backgroundColor: kPrimaryColor,
+    //       colorText: kBackgroundColor);
+    // }
+  }
+
+ void workout() async {
+    // try {
+    //   googleAcc.value = await _googleSignIn.signIn();
+    //   displayName = googleAcc.value!.displayName!;
+    //   isSignedIn.value = true;
+    //   update(); // <-- without this the isSignedin value is not updated.
+    // } catch (e) {
+    //   Get.snackbar('Error occured!', e.toString(),
+    //       snackPosition: SnackPosition.BOTTOM,
+    //       backgroundColor: kPrimaryColor,
+    //       colorText: kBackgroundColor);
+    // }
+  }
+
+
   void signout() async {
     try {
       await auth.signOut();
@@ -149,6 +179,7 @@ class AuthController extends GetxController {
           colorText: kBackgroundColor);
     }
   }
+
 }
 
 // // to capitalize first letter of a Sting
