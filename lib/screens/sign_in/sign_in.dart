@@ -18,8 +18,8 @@ class _SignInState extends State<SignIn> {
       children: [
         // shows header title
         HeroTitle(
-          title: 'Welcome!',
-          subtitle: 'Enter email and password to login...',
+          title: 'Vision onWay!',
+          subtitle: 'Fitness application...',
         ),
         // shows image
         HeroImage(

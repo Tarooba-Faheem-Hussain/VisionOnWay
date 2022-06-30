@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 //import 'package:sign_button/create_button.dart';
-import 'package:sign_button/sign_button.dart';
+//import 'package:sign_button/sign_button.dart';
 import 'package:sign_in/controller/auth_controller.dart';
 import 'package:sign_in/screens/reset_password/reset_password.dart';
 import 'package:sign_in/screens/sign_up/sign_up.dart';
@@ -30,7 +30,7 @@ class SignInButtons extends StatelessWidget {
     final _authController = Get.find<AuthController>();
 
     return Expanded(
-      flex: 1,
+      flex:1,
       child: Column(
         children: [
           Padding(
@@ -64,10 +64,7 @@ class SignInButtons extends StatelessWidget {
             ),
           ),
           SizedBox(height: Config.screenHeight! * 0.01),
-          SignInButton.mini(
-            buttonType: ButtonType.google,
-            onPressed: () => _authController.signInWithGoogle(),
-          ),
+         
           TextWithTextButton(
             text: 'Don\'t have an account?',
             textButtonText: 'Sign up',

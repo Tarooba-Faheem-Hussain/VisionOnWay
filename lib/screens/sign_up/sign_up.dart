@@ -30,8 +30,8 @@ class _SignUpState extends State<SignUp> {
             child: Column(
               children: [
                 HeroTitle(
-                  title: 'Sign Up',
-                  subtitle: 'Create an account...',
+                  title: 'Vision onWay',
+                  subtitle: 'Fitness application....',
                 ),
                 buildTextFormFields(),
                 SignUpButtons(
